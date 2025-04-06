@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Enhanced Web Camera</title>
+  <link rel="icon" href="https://png.pngtree.com/png-vector/20190930/ourmid/pngtree-camera-icon-isolated-on-abstract-background-png-image_1763342.jpg" type="image/icon type">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📷 My Enhanced Web Camera</h1>
+    
+
+    <video id="webcam" autoplay playsinline></video>
+
+    <div class="controls">
+      <button id="captureBtn">Capture Photo</button>
+      <button id="downloadBtn">Download</button>
+      <button id="clearBtn">Clear</button>
+    </div>
+
+    <div class="filters">
+      <label>Filter:
+        <select id="filterSelect">
+          <option value="none">None</option>
+          <option value="grayscale(100%)">Grayscale</option>
+          <option value="sepia(100%)">Sepia</option>
+          <option value="invert(100%)">Invert</option>
+        </select>
+      </label>
+    </div>
+
+    <canvas id="snapshot" width="500" height="375"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
