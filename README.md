@@ -39,3 +39,7 @@ This is a simple and interactive **Web Camera App** built using **HTML**, **CSS*
 ✅ Download Snapshot  
 ✅ Clear Canvas
 
+## ✔️Checkout
+
+LinkedIn:https://www.linkedin.com/posts/akhila-ohmkumar-704576258_webdevelopment-html-css-activity-7314545815111315456-gvmB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9xn3QBdi9SB9uXEQdyfiI7HGPTuRVHmyk
+
